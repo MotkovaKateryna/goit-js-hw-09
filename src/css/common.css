@@ -16,3 +16,57 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+.timer {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-container {
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 50px;
+  height: 100px;
+  width: 200px;
+}
+
+.btn-container > button {
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: blue;
+  background-color: yellow;
+  border-color: yellow;
+}
+.timer-container {
+  position: absolute;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
